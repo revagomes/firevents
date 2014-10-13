@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('FavoritesCtrl', function($scope) {
-  //$scope.friends = Friends.all();
+  
 })
 
 .controller('AgendaDetailCtrl', function($scope, $stateParams, Agenda) {

@@ -1,8 +1,11 @@
+
 <ion-view title="Agenda">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="presentation in agenda" type="item-text-wrap" ui-sref="tab.agenda-detail({agendaId:presentation.id})">
-        {{presentation.name}}
+      <ion-item ng-repeat="presentation in agenda" type="item-text-wrap" class="item-icon-right" ui-sref="tab.agenda-detail({agendaId:presentation.id})">
+        <p>{{presentation.time}}</span>
+        <h2>{{presentation.name}}</h2>
+        <span>{{presentation.room}}</span>
       </ion-item>
     </ion-list>
   </ion-content>
